@@ -1,0 +1,58 @@
+.large-hero {
+  position: relative;
+  border-bottom: 10px solid $mainBlue;
+
+  &__img {
+    display: block;
+  }
+  /* put the overlay text in center both horizontally and vertically 
+   ** horizontally:  width: 100%; text-align: center;
+   ** vertically: top: 50%; transform: translateY(-50%);
+   */
+
+  &__text-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 300;
+    color: $mainBlue;
+    font-size: 3rem;
+    margin: 0;
+
+    @mixin atSmall {
+      font-size: 4.8rem;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    color: $mainBlue;
+    font-size: 1.7rem;
+    margin: 0;
+
+    @mixin atSmall {
+      font-size: 2.9rem;
+    }
+  }
+
+  &__description {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    max-width: 30rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+
+    @mixin atSmall {
+      font-size: 1.875rem;
+      font-weight: 100;
+    }
+  }
+}

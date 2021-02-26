@@ -11,7 +11,9 @@
 *.sass-cache
 node_modules/
 app/node-experiment/
+app/image-responsive/
 .tmp/
+package-lock.json
 
 # OS or Editor folders
 .DS_Store

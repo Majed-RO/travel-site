@@ -1,0 +1,35 @@
+/* Small devices (landscape phones) */
+@define-mixin atSmall {
+  @media (min-width: 576px) {
+    @mixin-content;
+  }
+}
+
+/* Medium devices (tablets) */
+@define-mixin atMedium {
+  @media (min-width: 768px) {
+    @mixin-content;
+  }
+}
+
+/* Large devices (desktops) */
+@define-mixin atLarge {
+  @media (min-width: 992px) {
+    @mixin-content;
+  }
+}
+
+/* Extra large devices (large desktops) */
+@define-mixin atExtraLarge {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin clearfix {
+  &::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}
