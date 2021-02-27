@@ -14,6 +14,8 @@ app/node-experiment/
 app/image-responsive/
 .tmp/
 package-lock.json
+help/
+sdd
 
 # OS or Editor folders
 .DS_Store
