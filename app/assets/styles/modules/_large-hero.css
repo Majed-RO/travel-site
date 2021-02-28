@@ -17,12 +17,17 @@
     left: 0;
     width: 100%;
     text-align: center;
+    padding-top: 100px;
+
+    @mixin atSmall {
+      padding-top: 100px;
+    }
   }
 
   &__title {
     font-weight: 300;
     color: $mainBlue;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0;
 
     @mixin atSmall {
