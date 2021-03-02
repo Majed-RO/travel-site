@@ -16,6 +16,7 @@ app/image-responsive/
 package-lock.json
 help/
 sdd
+webpack.config.js.bak
 
 # OS or Editor folders
 .DS_Store
