@@ -3,7 +3,9 @@ import 'lazysizes'
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
+import ClientArea from './modules/ClientArea'
 
+new ClientArea()
 /* see the extension called event-emitter 
 The EventEmitter is a module that facilitates communication/interaction between objects in Node*/
 new StickyHeader()
