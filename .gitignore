@@ -17,6 +17,8 @@ package-lock.json
 help/
 sdd
 webpack.config.js.bak
+docs/
+dist/
 
 # OS or Editor folders
 .DS_Store
